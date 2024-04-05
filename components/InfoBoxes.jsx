@@ -1,4 +1,4 @@
-import InfoBox from "./InfoBox";
+import InfoBox from "@/components/InfoBox";
 
 const InfoBoxes = () => {
   return (
@@ -32,4 +32,5 @@ const InfoBoxes = () => {
     </section>
   )
 }
+
 export default InfoBoxes;
