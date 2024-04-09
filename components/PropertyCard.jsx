@@ -51,10 +51,10 @@ const PropertyCard = ({ property }) => {
           {property.rates.nightly && (
             <p><FaMoneyBill className="inline mr-2" />Nightly</p>
           )}
-          {property.rates.nightly && (
+          {property.rates.weekly && (
             <p><FaMoneyBill className="inline mr-2" />Weekly</p>
           )}
-          {property.rates.nightly && (
+          {property.rates.monthly && (
             <p><FaMoneyBill className="inline mr-2" />Monthly</p>
           )}
         </div>
